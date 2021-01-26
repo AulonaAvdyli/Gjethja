@@ -1,0 +1,86 @@
+.register-container{
+  height: 100%;
+  background-image: url("../../assets/images/pattern.png");
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  padding-bottom: 300px;
+  //background-color: rgb(255, 255, 255);
+}
+
+.button {
+  position: absolute;
+  //bottom: 30px;
+  right: 30px;
+  height: 50px;
+  width: auto;
+  line-height: 30px;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 7px;
+  background-color: #249278;
+  box-shadow: 10px 10px 14px -11px rgba(27,69,29,1);
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.register-form {
+  min-width: 400px;
+}
+
+.submit{
+  color: white;
+  padding: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 7px;
+  background-color: #249278;
+  box-shadow: 10px 10px 14px -11px rgba(27,69,29,1);
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.register-title {
+  color: var(--main);
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.register-button {
+  text-align: center;
+  margin-top: 35px;
+
+  button {
+    width: 165px;
+    height: 45px;
+  }
+}
+
+.error-style{
+  color: red;
+  font-size: .7rem;
+  font-weight: 300;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  margin: auto;
+}
+
+.myPosts{
+  position: absolute;
+  bottom: 0;
+  background-color: green;
+}

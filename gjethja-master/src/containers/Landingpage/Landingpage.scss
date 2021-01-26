@@ -1,0 +1,114 @@
+.slideshow{
+  height: 600px;
+  width: 100%;
+  text-align: center;
+  img{
+    height: 600px;
+    width: 100%;
+    background-color: whitesmoke;
+    opacity: 80%;
+  }
+}
+.slide-container {
+  .react-slideshow-container .nav span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-color: transparent;
+    transform: rotate(45deg);
+  }
+  .react-slideshow-container .nav {
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    z-index: 10;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+.services {
+  padding: 40px;
+  text-align: center;
+
+  .services-title {
+    color: var(--main);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .services-cards {
+    display: flex;
+    justify-content: space-evenly;
+
+    .services-card {
+      max-width: 175px;
+
+      .service-card-text {
+        font-size: .95rem;
+        font-weight: bold;
+        line-height: 22px;
+        color: var(--main);
+        padding-top: 15px;
+      }
+
+      .services-card-img img {
+        max-height: 175px;
+      }
+    }
+  }
+}
+
+.ourvalues {
+  padding: 50px;
+  text-align: center;
+  background-color: rgba(38, 144, 119, 0.08);
+
+  .ourvalues-title {
+    color: var(--main);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .ourvalues-cards {
+    display: flex;
+    justify-content: space-evenly;
+
+    .ourvalues-card {
+      width: 250px;
+      height: 320px;
+      padding: 20px;
+      border-radius: 5px;
+      background-color: white;
+
+      .post-description{
+        padding: 15px;
+      }
+
+      -webkit-box-shadow: 0px 5px 25px -4px rgba(36,146,120,0.64);
+      -moz-box-shadow: 0px 5px 25px -4px rgba(36,146,120,0.64);
+      box-shadow: 0px 5px 25px -4px rgba(36,146,120,0.64);
+    }
+    .partner{
+      padding-top: 20px;
+    }
+  }
+  button {
+    width: 120px;
+    border-color: var(--main);
+    background-color: var(--main);
+    margin: 40px;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,2 @@
+insert into users(first_name, last_name, email, password, date_of_birth, gender, city, bio, is_enabled) values ('Aulona', 'Avdyli', 'katrasolutions@gmail.com'
+, '$2a$10$qD6NxaVSXMdENgklIHjoou0ZW3TIk3/7hBcy89CIIXAYJtTc4F2fS', '1998-03-12', 'female', 'Ferizaj', 'bio', 1);
